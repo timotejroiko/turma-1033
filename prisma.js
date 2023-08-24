@@ -63,3 +63,16 @@ const meuRetangulo = new Retangulo([10,5,5,10]);
 const meuTriangulo = new Triangulo([10,5,5,10]);
 
 console.log(meuTriangulo.calcularArea());
+
+
+/*
+
+encapsulamento - agrupar coisas similares dentro de um objeto, evita acessar os atributos diretamente, preferencia a acessar indiretamente
+
+abstração - esconder a complexidade do usuario, executa funcoes complexas dentro da classe, e da ao usuario apenas metodos simples
+
+herança - subclasses e extenções de classes, objetos complexos de forma simplies
+
+polimorfismo - pega metodos herdados, e modifica-los para que o usuario não perceba diferencas de implementação, e possa utilizar os mesmos metodos para fazer o que a subclasse precisa
+
+*/
