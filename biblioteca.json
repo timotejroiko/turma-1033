@@ -1,0 +1,22 @@
+[
+    {
+        "nome": "livro1",
+        "descricao": "um livro muito legal",
+        "autor": "autor1"
+    },
+    {
+        "nome": "harry potter e o código filosofal",
+        "descricao": "um livro muito doido",
+        "autor": "python"
+    },
+    {
+        "nome": "biografia da pepita",
+        "descricao": "um livro muito interessante",
+        "autor": "pepita"
+    },
+    {
+        "nome": "contos do biroliro",
+        "descricao": "birolirolirolriolrilroroolror",
+        "autor": "pepita"
+    }
+]

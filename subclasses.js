@@ -1,8 +1,17 @@
 // @ts-nocheck
 
+
+.bind()
+.call()
+.apply()
+
+
 class ClasseMae {
     #numero
     constructor(meunumero) {
+        if(this.constructor.name === "ClasseMae") {
+            throw new Error("essa classe não pode ser instanciada diretamente");
+        }
         this.#numero = meunumero;
         this.string = "abc";
     }
@@ -23,7 +32,7 @@ class Filha extends ClasseMae {
 }
 
 const b = new Filha(10);
-b.meuMetodo();
+b.meuMetodo;
 
 class FormaGeometrica {
     calcularArea() {
