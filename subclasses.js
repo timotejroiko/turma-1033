@@ -1,11 +1,5 @@
 // @ts-nocheck
 
-
-.bind()
-.call()
-.apply()
-
-
 class ClasseMae {
     #numero
     constructor(meunumero) {
