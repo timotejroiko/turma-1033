@@ -1,3 +1,4 @@
+// @ts-nocheck
 
 
 class A {
@@ -9,7 +10,7 @@ class A {
         return "xyz";
     }
     valueOf() {
-        return this.a;
+        return 50;
     }
     toJSON() {
         return {
@@ -17,6 +18,18 @@ class A {
         }
     }
 }
+
+"a" + {}; // "a1"
+1 + {};
+
+const a = {};
+a.toString();
+a.valueOf();
+
+const meuA = new A();
+"a" + meuA; // "axyz"
+1 + meuA; // 51
+
 
 class B {
     constructor(a) {

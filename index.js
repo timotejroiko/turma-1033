@@ -29,6 +29,15 @@ class Conta {
         this.identidade = identidade;
         this.#senha = senha;
         this.agencia = agencia;
+        this.numeroDePeixes = 0;
+    }
+
+    get temPeixe() {
+        if(this.numeroDePeixes > 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     get cpf() {
