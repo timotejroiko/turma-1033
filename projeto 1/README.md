@@ -39,6 +39,14 @@ Após ter o Node.js instalado (poderá confirmar a sua instalação executando `
 
 com tudo instalado poderá começar rodando o seu bot com o comando `node index.js`;
 
+## discord
+
+Para obter um token para o seu bot, deverá ir em [https://discord.com/developers/applications](https://discord.com/developers/applications) e fazer login com a sua conta Discord e criar uma nova aplicação.
+
+Na página da aplicação, entre na aba Bot, clique no botao "reset token" para obter o seu novo token.
+
+Ainda na mesma página, um pouco mais para baixo, deverá habilitar a opção "MESSAGE CONTENT INTENT", para que o seu bot possa acessar o conteúdo das mensagens recebidas.
+
 ## entrega
 
 O trabalho final com o projeto elaborado deverá ser colocado em um repositório no github e enviado aos professores, de preferência até segunda-feira dia 4, mas podendo ser extendido até sexta-feira dia 8.

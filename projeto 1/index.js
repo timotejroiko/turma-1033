@@ -8,7 +8,7 @@ const { Client, GatewayIntentBits } = require("discord.js");
 // o objeto GatewayIntentBits fornece um atalho para definirmos quais eventos queremos receber
 // aqui estamos informado ao Discord que queremos receber eventos sobre Guilds, ou seja quando o nosso bot entra e sai de servidores
 // e tambem eventos sobre GuildMessages, ou seja quando sao postadas, editadas ou deletadas mensages em servidores
-const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages] });
+const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 
 // aqui temos o evento "ready", que é executado quando o nosso bot conecta com sucesso nos servidores do Discord.
 client.on('ready', () => {
