@@ -47,6 +47,8 @@ Na página da aplicação, entre na aba Bot, clique no botao "reset token" para 
 
 Ainda na mesma página, um pouco mais para baixo, deverá habilitar a opção "MESSAGE CONTENT INTENT", para que o seu bot possa acessar o conteúdo das mensagens recebidas.
 
+Para adicionar o seu bot no servidor da turma, entre na aba "oauth2" e na sub-aba "url generator", selecione o escopo "bot", e no final da página terá o seu link de convite para convidar o bot para o seu servidor. Talvez precise pedir a algum moderador/administrador da turma para consguir adiciona-lo no servidor da turma.
+
 ## entrega
 
 O trabalho final com o projeto elaborado deverá ser colocado em um repositório no github e enviado aos professores, de preferência até segunda-feira dia 4, mas podendo ser extendido até sexta-feira dia 8.
